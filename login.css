@@ -1,0 +1,219 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #0d6edda6;
+      column-gap: 30px;
+      position: relative;
+  }
+
+  .form_filed {
+      position: relative;
+      max-width: 430px;
+      width: 100%;
+      padding: 30px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 6px #23283692;
+
+  }
+
+  .heading_name {
+      font-size: 28px;
+      font-weight: 600;
+      color: #233136;
+      text-align: center;
+      margin-bottom: 40px;
+      position: relative;
+  }
+
+  /* .heading_name::before {
+      content: "";
+      position: absolute;
+      min-width: 130px;
+      height: 4px;
+      background-color: #0171d3;
+      left: 33%;
+      bottom: -8px;
+      border-radius: 20px;
+
+      margin: 0 auto;
+  } */
+
+  .input-field {
+      width: 100%;
+      margin-bottom: 25px;
+      position: relative;
+  }
+
+  .input-field:last-child {
+      margin-bottom: 0px;
+  }
+
+  .input-field .input {
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 8px;
+      border: 1px solid #444;
+  }
+
+  .input-field .input::placeholder {
+      color: #ccc;
+      font-size: 16px;
+  }
+
+
+  .eye-icon {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      font-size: 18px;
+      color: #8b8b8b;
+      cursor: pointer;
+      padding: 5px;
+  }
+
+  .button-field {
+      height: 100%;
+      width: 100%;
+  }
+
+  .button-field button {
+      color: #fff;
+      background-color: #0171d3;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      width: 100%;
+      height: 40px;
+      border: none;
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 6px;
+  }
+
+  .form_link {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .form_link span {
+      font-size: 14px;
+      font-weight: 400;
+  }
+
+  .already_login-link {
+      text-decoration: none;
+      color: #0171d3;
+  }
+
+  .already_login-link:hover {
+      text-decoration: underline;
+  }
+
+  .line {
+      position: relative;
+      height: 1px;
+      width: 100%;
+      margin: 36px 0;
+      background-color: #d4d4d4;
+  }
+
+  .line::before {
+      content: "Or";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      color: #8b8b8b;
+      padding: 0 15px;
+  }
+
+  .media-options {}
+
+  .media-options a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+  }
+
+  .field {
+      position: relative;
+      height: 50px;
+      width: 100%;
+      margin-top: 20px;
+      border-radius: 6px;
+
+  }
+
+  .facebook {
+      color: #fff;
+      background-color: #4267b2;
+  }
+
+
+
+
+  a.facebook .facebook-icon {
+      height: 28px;
+      width: 28px;
+      color: #0171d3;
+      font-size: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+  }
+
+  .facebook-icon,
+  img.google-img {
+      position: absolute;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%);
+  }
+
+  img.google-img {
+      height: 20px;
+      width: 20px;
+      object-fit: cover;
+  }
+
+  a.google {
+      border: 1px solid #CACACA;
+  }
+
+  a.google span {
+      font-weight: 500;
+      opacity: 0.6;
+      color: #232836;
+  }
+
+  .form-link {
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+  .forgot-pass {
+      text-decoration: none;
+      color: #232836;
+  }
